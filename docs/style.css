@@ -334,3 +334,28 @@ hr:last-of-type + p {
   font-size: small;
   text-align: right;
 }
+/******************** PRINT
+*/
+@media print {
+  #youre-singular,
+  #save-rolls,
+  #attack-defend,
+  #armor,
+  #experience,
+  #optional-rules,
+  #authority,
+  #rile-up,
+  #gm-guide,
+  #whos-the-boss,
+  #monster-example,
+  #colophon {
+    page-break-before: always;
+  }
+  hr {
+    display: none;
+  }
+  /* The footer */
+  hr:last-of-type + p {
+    margin-top: 10em;
+  }
+}

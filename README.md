@@ -8,7 +8,7 @@ a rpg derived from [The Black Hack](https://plus.google.com/communities/10783293
 
 ## to play
 
-the rules are in the [gobz-hack.md](gobz-hack.md) file.
+the rules are in the [gobz-hack.md](gobz-hack.md) file. browse it online on [gobz.jehaisleprintemps.net](https://gobz.jehaisleprintemps.net/). there's a pdf you can [download and eventually print](https://gobz.jehaisleprintemps.net/the-gobz-hack.pdf). 
 
 gather some silly friends, grab some paper, pencils, a set of polyhedric dice, and go on adventure.
 
