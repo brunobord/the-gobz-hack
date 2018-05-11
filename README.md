@@ -8,7 +8,7 @@ a rpg derived from [The Black Hack](https://plus.google.com/communities/10783293
 
 ## to play
 
-the rules are in the [gobz-hack.md](gobz-hack.md) file. browse it online on [gobz.jehaisleprintemps.net](https://gobz.jehaisleprintemps.net/). there's a pdf you can [download and eventually print](https://gobz.jehaisleprintemps.net/the-gobz-hack.pdf). 
+the rules are in the [gobz-hack.md](gobz-hack.md) file. browse it online on [gobz.jehaisleprintemps.net](https://gobz.jehaisleprintemps.net/). there's a pdf you can [download and eventually print](https://gobz.jehaisleprintemps.net/the-gobz-hack.pdf).
 
 gather some silly friends, grab some paper, pencils, a set of polyhedric dice, and go on adventure.
 
@@ -19,7 +19,7 @@ requires: make / pandoc (>=2).
 simply run:
 
 ```sh
-make build
+make html
 ```
 
 to have a `index.html` file with appropriate styles.
@@ -31,10 +31,22 @@ requires: make / pandoc / python3.
 run the following:
 
 ```sh
-make build serve
+make html serve
 ```
 
 and browse the following address <http://127.0.0.1:8000/>.
+
+## to build pdf
+
+requires: make / npm
+
+simply run:
+
+```sh
+make pdf
+```
+
+this installs `chromehtml2pdf` and uses it to build a a4 *pdf* document using a chromium web browser - it'll download it from the internets, it sounds silly, but it works!
 
 ## beyond
 

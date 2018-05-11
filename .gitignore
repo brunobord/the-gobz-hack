@@ -1,0 +1,3 @@
+# Related to the install of chromehtml2pdf
+node_modules/
+package-lock.json
