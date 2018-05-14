@@ -1,3 +1,11 @@
+help:
+	@echo "Available targets:"
+	@echo ""
+	@echo " * html: build HTML page(s)"
+	@echo " * pdf: build PDF"
+	@echo " * build-all: build HTML+PDF"
+	@echo " * serve: run a simple HTTP server for HTML pages"
+
 html:
 	pandoc \
 		-f markdown_github+hard_line_breaks+auto_identifiers \
